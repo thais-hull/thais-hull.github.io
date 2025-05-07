@@ -72,10 +72,9 @@ nav a.active, nav a:hover {
     cursor: pointer;
 }
 
-
 /* contact page*/
 .contact {
-    padding: 2rem;
+    padding: 1rem;
 }
 .contact a {
     font-size: 1rem;
