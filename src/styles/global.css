@@ -70,3 +70,16 @@ nav a.active, nav a:hover {
 	width: 200px;
 	cursor: pointer;
 }
+
+/* contact page*/
+.contact {
+    padding: 2rem;
+}
+.contact a {
+    font-size: 1rem;
+    color: #666;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: #a8a8a8;
+}
