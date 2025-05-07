@@ -7,7 +7,7 @@ import Header from "./components/Header";
 
 function App() {
     return (
-        <div className="app-container">
+        <>
             <BrowserRouter>
                 <Header />
                 <main>
@@ -22,7 +22,7 @@ function App() {
                     <p>&copy; {new Date().getFullYear()} Thais Hull. All rights reserved.</p>
                 </footer>
             </BrowserRouter>
-        </div>
+        </>
     );
 }
 
