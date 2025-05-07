@@ -66,10 +66,12 @@ nav a.active, nav a:hover {
 	padding: 1rem;
 }
 .video {
-	position: relative;
-	width: 200px;
-	cursor: pointer;
+    position: relative;
+    width: 50vw;
+    max-width: 100%;
+    cursor: pointer;
 }
+
 
 /* contact page*/
 .contact {
