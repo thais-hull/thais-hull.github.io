@@ -62,7 +62,7 @@ p {
 	line-height: 1.5;
 }
 
-/* video grid */
+/* portfolio videos */
 .videos {
 	display: flex;
 	justify-content: center;
@@ -88,6 +88,35 @@ p {
 }
 .contact a:hover {
     color: #a8a8a8;
+}
+
+/* resume page */
+.resume {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+.resume h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.job {
+    margin-bottom: 2rem;
+}
+.job h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+.job p {
+    margin: 0.2rem 0;
+}
+.job ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+.job ul li {
+    margin-bottom: 0.3rem;
 }
 
 /* screen reader only */
