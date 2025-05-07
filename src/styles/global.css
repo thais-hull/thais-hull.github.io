@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* body and html */
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	zoom: 1;
+	font-family: 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #333;
+	text-align: center;
+}
+
+/* header, title, subtitle and bio */
+header {
+	padding: 3rem 1rem 2rem;
+}
+h1 {
+	font-size: 2.8rem;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1rem;
+	color: #555;
+	margin: 1rem 0;
+}
+.bio {
+	max-width: 700px;
+	margin: 0 auto 2rem;
+	font-size: 0.95rem;
+	color: #666;
+	line-height: 1.5;
+}
+
+/* nav */
+nav {
+	margin-bottom: 2rem;
+}
+nav a {
+	margin: 0 1rem;
+	text-decoration: none;
+	font-size: 0.85rem;
+	letter-spacing: 0.1rem;
+	color: #666;
+}
+
+/* video posters */
+.posters {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+.poster {
+	position: relative;
+	width: 200px;
+	cursor: pointer;
+}
+.poster img {
+	width: 100%;
+	border-radius: 4px;
+}
+.play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 0 0 10px black;
+	pointer-events: none;
+}
