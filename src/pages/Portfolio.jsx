@@ -5,7 +5,7 @@ const videos = [
 
 function Portfolio() {
     return (
-        <main className="videos">
+        <div className="videos">
             {videos.map((video, index) => (
                 <div className="video" key={index}>
                     <video controls muted loop width="100%" style={{ borderRadius: "8px" }}>
@@ -14,9 +14,8 @@ function Portfolio() {
                     </video>
                 </div>
             ))}
-        </main>
+        </div>
     );
 }
-
 
 export default Portfolio;
