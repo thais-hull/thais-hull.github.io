@@ -11,7 +11,7 @@ const videos = [
     },
 ];
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <div className="videos">
             {videos.map((video, index) => (
