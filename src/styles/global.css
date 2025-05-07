@@ -53,6 +53,9 @@ nav a {
 	letter-spacing: 0.1rem;
 	color: #666;
 }
+nav a.active, nav a:hover {
+	color: #a8a8a8;
+}
 
 /* video posters */
 .posters {
