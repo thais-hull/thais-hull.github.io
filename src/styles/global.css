@@ -20,6 +20,26 @@ body {
 	text-align: center;
 }
 
+/* layout container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* main should grow to fill space */
+main {
+    flex: 1;
+}
+
+/* footer styling */
+footer {
+    padding: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
 /* header, title, subtitle and bio */
 header {
 	padding: 3rem 1rem 0;
