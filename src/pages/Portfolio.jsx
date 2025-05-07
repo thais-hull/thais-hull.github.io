@@ -1,12 +1,22 @@
-const Home = () => {
-    return (
-        <>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-        </>
-    );
-};
+const videos = [
+    { src: "/videos/advertising_demo.mp4" },
+    { src: "/videos/narrative_demo.mp4" },
+];
 
-export default Home;
+function Portfolio() {
+    return (
+        <main className="videos">
+            {videos.map((video, index) => (
+                <div className="video" key={index}>
+                    <video controls muted loop width="100%" style={{ borderRadius: "8px" }}>
+                        <source src={video.src} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            ))}
+        </main>
+    );
+}
+
+
+export default Portfolio;

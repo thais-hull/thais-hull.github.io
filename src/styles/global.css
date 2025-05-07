@@ -57,30 +57,16 @@ nav a.active, nav a:hover {
 	color: #a8a8a8;
 }
 
-/* video posters */
-.posters {
+/* video grid */
+.videos {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
 	flex-wrap: wrap;
 	padding: 1rem;
 }
-.poster {
+.video {
 	position: relative;
 	width: 200px;
 	cursor: pointer;
-}
-.poster img {
-	width: 100%;
-	border-radius: 4px;
-}
-.play {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 2.5rem;
-	color: white;
-	text-shadow: 0 0 10px black;
-	pointer-events: none;
 }
