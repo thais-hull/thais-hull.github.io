@@ -1,3 +1,10 @@
+:root {
+    --color-primary: #5c6578;
+    --color-secondary: #a8a8a8;
+    --color-background: #000;
+    --color-text: #ccc;
+    --color-accent: #a2b3da;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -15,12 +22,12 @@ html {
 body {
 	zoom: 1;
 	font-family: 'Helvetica Neue', sans-serif;
-	background-color: #000;
+	background-color: var(--color-background);
     background-image: url('../assets/lowered-waves.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-	color: #ccc;
+	color: var(--color-text);
 	text-align: center;
 }
 
@@ -39,7 +46,6 @@ main {
 /* footer styling */
 footer {
     padding: 1rem;
-    color: #666;
     font-size: 0.9rem;
     text-align: center;
 }
@@ -48,21 +54,20 @@ footer {
 header {
 	padding: 3rem 1rem 0;
 }
-h1 {
+header h1 {
 	font-size: 2.8rem;
 	letter-spacing: 0.2rem;
 	font-weight: bold;
 }
-h2 {
+header h2 {
 	font-size: 1rem;
-	color: #a2b3da;
 	margin: 1rem 0;
 }
 .bio {
 	max-width: 700px;
 	margin: 0 auto 2rem;
 	font-size: 0.95rem;
-	color: #5c6578;
+	color: var(--color-primary);
 	line-height: 1.5;
 }
 
@@ -72,18 +77,23 @@ nav {
 }
 nav a {
 	margin: 0 1rem;
-	text-decoration: none;
 	font-size: 0.85rem;
 	letter-spacing: 0.1rem;
-	color: #666;
-}
-nav a.active, nav a:hover {
-	color: #a8a8a8;
 }
 
-/* text */
+/* p h1 h2 a */
 p {
 	line-height: 1.5;
+}
+h2 {
+    color: var(--color-accent);
+}
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+a.active, a:hover {
+    color: var(--color-secondary);
 }
 
 /* portfolio videos */
@@ -107,11 +117,6 @@ p {
 }
 .contact a {
     font-size: 1rem;
-    color: #666;
-    text-decoration: none;
-}
-.contact a:hover {
-    color: #a8a8a8;
 }
 
 /* resume page */
