@@ -10,7 +10,8 @@ function Header() {
                 Being an editor, I thrive in both team settings and working independently, always ensuring my workflow and deadlines are met with precision and creativity.
             </p>
             <nav>
-                <NavLink to="/">PORTFOLIO</NavLink>
+                <NavLink to="/">DEMO REEL</NavLink>
+                <NavLink to="/advertisement">ADVERTISEMENT</NavLink>
                 <NavLink to="/resume">RESUME</NavLink>
                 <NavLink to="/about">ABOUT</NavLink>
                 <NavLink to="/contact">CONTACT</NavLink>

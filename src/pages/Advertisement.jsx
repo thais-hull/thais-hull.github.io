@@ -1,12 +1,12 @@
 const videos = [
     {
-        src: "/videos/narrative_demo.mp4",
-        label: "Narrative Demo Reel",
-        description: "A compilation of narrative film editing samples."
+        src: "/videos/advertising_demo.mp4",
+        label: "Advertising Demo Reel",
+        description: "A showcase of advertising video editing projects."
     },
 ];
 
-const Portfolio = () => {
+const Advertisement = () => {
     return (
         <div className="videos">
             {videos.map((video, index) => (
@@ -30,4 +30,4 @@ const Portfolio = () => {
     );
 }
 
-export default Portfolio;
+export default Advertisement;
