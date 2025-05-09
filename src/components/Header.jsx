@@ -11,7 +11,7 @@ function Header() {
             </p>
             <nav>
                 <NavLink to="/">DEMO REEL</NavLink>
-                <NavLink to="/advertisement">ADVERTISEMENT</NavLink>
+                <NavLink to="/advertisement">ADVERTISEMENT REEL</NavLink>
                 <NavLink to="/resume">RESUME</NavLink>
                 <NavLink to="/about">ABOUT</NavLink>
                 <NavLink to="/contact">CONTACT</NavLink>
