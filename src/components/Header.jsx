@@ -9,7 +9,7 @@ function Header() {
                 I am a highly organized and detail-oriented candidate with a strong passion for the film industry, particularly behind-the-scenes and the collaborative crew environment.
                 Being an editor, I thrive in both team settings and working independently, always ensuring my workflow and deadlines are met with precision and creativity.
             </p>
-            <nav>
+            <nav aria-label="Main navigation">
                 <NavLink to="/">DEMO REEL</NavLink>
                 <NavLink to="/advertisement">ADVERTISEMENT REEL</NavLink>
                 <NavLink to="/resume">RESUME</NavLink>
