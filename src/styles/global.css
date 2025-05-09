@@ -67,7 +67,7 @@ header h2 {
 	max-width: 700px;
 	margin: 0 auto 2rem;
 	font-size: 0.95rem;
-	color: var(--color-primary);
+	color: var(--color-text);
 	line-height: 1.5;
 }
 
@@ -85,15 +85,12 @@ nav a {
 p {
 	line-height: 1.5;
 }
-h2 {
-    color: var(--color-accent);
-}
 a {
     color: var(--color-primary);
     text-decoration: none;
 }
 a.active, a:hover {
-    color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 /* portfolio videos */
