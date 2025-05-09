@@ -1,0 +1,102 @@
+/* Reset and base styles for print */
+@media print {
+	* {
+		background: none !important;
+		color: #000 !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	body,
+	html {
+		background: #fff !important;
+		color: #000 !important;
+		font-family: 'Helvetica', 'Arial', sans-serif;
+		font-size: 12pt;
+		line-height: 1.6;
+		margin: 1in;
+	}
+
+	/* Hide navigation, footer, videos, contact links */
+	nav,
+	footer,
+	.videos,
+	.contact,
+	.video,
+	a[href^="mailto:"],
+	a[href^="tel:"],
+	a[href^="http"]::after {
+		display: none !important;
+	}
+
+	/* Header adjustments */
+	header {
+		text-align: left;
+		padding: 0 0 1rem 0;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 2rem;
+	}
+
+	header h1 {
+		font-size: 1.8rem;
+	}
+
+	header h2 {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.bio {
+		font-size: 0.95rem;
+		max-width: 100%;
+		margin-bottom: 1.5rem;
+	}
+
+	/* Resume formatting */
+	.resume {
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+	}
+
+	.resume h2 {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.job {
+		margin-bottom: 1.5rem;
+	}
+
+	.job h3 {
+		font-size: 1.1rem;
+	}
+
+	.job p,
+	.job ul {
+		font-size: 0.95rem;
+	}
+
+	.job ul {
+		padding-left: 1rem;
+		list-style-type: disc;
+	}
+
+	/* Avoid page breaks inside job descriptions */
+	.job {
+		page-break-inside: avoid;
+	}
+
+	/* Prevent page breaks in header or title */
+	header,
+	h1,
+	h2 {
+		page-break-after: avoid;
+	}
+
+	/* Remove links’ href after text */
+	a::after {
+		content: "";
+	}
+}
