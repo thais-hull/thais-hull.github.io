@@ -11,7 +11,7 @@ function Header() {
             </p>
             <nav aria-label="Main navigation">
                 <NavLink to="/">DEMO REEL</NavLink>
-                <NavLink to="/advertisement">ADVERTISEMENT REEL</NavLink>
+                <NavLink to="/advertising">ADVERTISING REEL</NavLink>
                 <NavLink to="/resume">RESUME</NavLink>
                 <NavLink to="/about">ABOUT</NavLink>
                 <NavLink to="/contact">CONTACT</NavLink>
