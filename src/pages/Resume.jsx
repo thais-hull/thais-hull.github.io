@@ -6,7 +6,6 @@ const Resume = () => {
             <p className="center"><a href={ResumeFile} target="_blank" rel="noopener noreferrer">Download Resume</a></p>
             <section>
                 <h2>Experience</h2>
-
                 <div className="job">
                     <h3>Administrative Assistant and Video Editor</h3>
                     <p><strong>Exclusive Maintenance</strong></p>
@@ -16,7 +15,6 @@ const Resume = () => {
                         <li>Planning, organizing, and posting company social media</li>
                     </ul>
                 </div>
-
                 <div className="job">
                     <h3>Office Representative</h3>
                     <p><strong>Volkswagen</strong></p>
@@ -26,7 +24,6 @@ const Resume = () => {
                         <li>Organize company records</li>
                     </ul>
                 </div>
-
                 <div className="job">
                     <h3>Assistant Film Editor</h3>
                     <p><strong>Visual Arcade</strong></p>
@@ -36,7 +33,6 @@ const Resume = () => {
                         <li>Time management</li>
                     </ul>
                 </div>
-
                 <div className="job">
                     <h3>Customer Service Representative</h3>
                     <p><strong>Rona</strong></p>
@@ -49,7 +45,6 @@ const Resume = () => {
             </section>
             <section>
                 <h2>Education</h2>
-
                 <div className="job">
                     <h3>Bachelor of Film and Television Production</h3>
                     <p><strong>Sheridan College</strong></p>
@@ -60,7 +55,6 @@ const Resume = () => {
                         <li>Maya</li>
                     </ul>
                 </div>
-
                 <div className="job">
                     <h3>Honours Graduate</h3>
                     <p><strong>Philip Pocock CSS</strong></p>
