@@ -54,10 +54,30 @@ footer {
 header {
     padding: 3rem 1rem 0;
 }
-header h1 {
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header-top h1 {
     font-size: 2.8rem;
     letter-spacing: 0.2rem;
     font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: var(--color-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 header h2 {
     font-size: 1rem;
@@ -70,8 +90,6 @@ header h2 {
     color: var(--color-text);
     line-height: 1.5;
 }
-
-/* nav */
 nav {
     margin-bottom: 2rem;
 }
@@ -80,8 +98,32 @@ nav a {
     font-size: 0.85rem;
     letter-spacing: 0.1rem;
 }
+@media (max-width: 768px) {
+    .header-top {
+        justify-content: space-between;
+    }
+    .header-top h1 {
+        text-align: left;
+        margin-left: 0;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    nav#menu {
+        display: none;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    nav#menu.open {
+        display: flex;
+    }
+    nav#menu a {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+}
 
-/* p h1 h2 a */
+/* p, h1, h2, a */
 p {
     line-height: 1.5;
 }
@@ -112,7 +154,7 @@ p.center {
     cursor: pointer;
 }
 
-/* contact page*/
+/* contact page */
 .contact {
     padding: 1rem;
 }
