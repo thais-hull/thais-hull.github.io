@@ -1,8 +1,12 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const Header = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleNavClick = () => {
+        setMenuOpen(false); // close menu when any link is clicked
+    };
 
     return (
         <header>
@@ -10,8 +14,8 @@ const Header = () => {
                 <h1>THAIS HULL</h1>
                 <button
                     className="menu-toggle"
-                    onClick={() => setIsMenuOpen(prev => !prev)}
-                    aria-label="Toggle navigation"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    aria-label="Toggle menu"
                 >
                     ☰
                 </button>
@@ -21,13 +25,12 @@ const Header = () => {
                 I am a highly organized and detail-oriented candidate with a strong passion for the film industry, particularly behind-the-scenes and the collaborative crew environment.
                 Being an editor, I thrive in both team settings and working independently, always ensuring my workflow and deadlines are met with precision and creativity.
             </p>
-
-            <nav id="menu" className={isMenuOpen ? "open" : ""} aria-label="Main navigation">
-                <NavLink to="/">DEMO REEL</NavLink>
-                <NavLink to="/advertising">ADVERTISING REEL</NavLink>
-                <NavLink to="/resume">RESUME</NavLink>
-                <NavLink to="/about">ABOUT</NavLink>
-                <NavLink to="/contact">CONTACT</NavLink>
+            <nav id="menu" className={menuOpen ? "open" : ""} aria-label="Main navigation">
+                <NavLink to="/" onClick={handleNavClick}>DEMO REEL</NavLink>
+                <NavLink to="/advertising" onClick={handleNavClick}>ADVERTISING REEL</NavLink>
+                <NavLink to="/resume" onClick={handleNavClick}>RESUME</NavLink>
+                <NavLink to="/about" onClick={handleNavClick}>ABOUT</NavLink>
+                <NavLink to="/contact" onClick={handleNavClick}>CONTACT</NavLink>
             </nav>
         </header>
     );
