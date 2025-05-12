@@ -1,6 +1,9 @@
+import ResumeFile from "../assets/Resume_Thais_Hull_Editor_2025.pdf";
+
 const Resume = () => {
     return (
         <div className="resume">
+            <p className="center"><a href={ResumeFile} target="_blank" rel="noopener noreferrer">Download Resume</a></p>
             <section>
                 <h2>Experience</h2>
 

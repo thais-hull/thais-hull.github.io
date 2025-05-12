@@ -92,6 +92,9 @@ a {
 a.active, a:hover {
     color: var(--color-text);
 }
+p.center {
+    text-align: center;
+}
 
 /* portfolio videos */
 .videos {
