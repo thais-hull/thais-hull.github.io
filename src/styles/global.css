@@ -5,7 +5,6 @@
     --color-text: #ccc;
     --color-accent: #a2b3da;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ html {
     margin: 0;
     padding: 0;
 }
-
 body {
     zoom: 1;
     font-family: 'Helvetica Neue', sans-serif;
@@ -56,18 +54,15 @@ footer {
 header {
     padding: 3rem 1rem 0;
 }
-
 header h1 {
     font-size: 2.8rem;
     letter-spacing: 0.2rem;
     font-weight: bold;
 }
-
 header h2 {
     font-size: 1rem;
     margin: 1rem 0;
 }
-
 .bio {
     max-width: 700px;
     margin: 0 auto 2rem;
@@ -80,7 +75,6 @@ header h2 {
 nav {
     margin-bottom: 2rem;
 }
-
 nav a {
     margin: 0 1rem;
     font-size: 0.85rem;
@@ -91,17 +85,14 @@ nav a {
 p {
     line-height: 1.5;
 }
-
 a {
     color: var(--color-primary);
     text-decoration: none;
 }
-
 a.active,
 a:hover {
     color: var(--color-text);
 }
-
 p.center {
     text-align: center;
 }
@@ -114,7 +105,6 @@ p.center {
     flex-wrap: wrap;
     padding: 1rem;
 }
-
 .video {
     position: relative;
     width: 50vw;
@@ -126,7 +116,6 @@ p.center {
 .contact {
     padding: 1rem;
 }
-
 .contact a {
     font-size: 1rem;
 }
@@ -138,30 +127,24 @@ p.center {
     margin: auto;
     text-align: left;
 }
-
 .resume h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
 .job {
     margin-bottom: 2rem;
 }
-
 .job h3 {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
 }
-
 .job p {
     margin: 0.2rem 0;
 }
-
 .job ul {
     margin-top: 0.5rem;
     padding-left: 1.5rem;
 }
-
 .job ul li {
     margin-bottom: 0.3rem;
 }

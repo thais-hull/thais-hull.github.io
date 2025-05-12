@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -6,7 +7,7 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 
-function App() {
+const App = () => {
     return (
         <>
             <BrowserRouter>
