@@ -5,30 +5,32 @@
     --color-text: #ccc;
     --color-accent: #a2b3da;
 }
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* body and html */
 body,
 html {
-	width: 100%;
-	min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
+
 body {
-	zoom: 1;
-	font-family: 'Helvetica Neue', sans-serif;
-	background-color: var(--color-background);
+    zoom: 1;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: var(--color-background);
     background-image: url('../assets/lowered-waves.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-	color: var(--color-text);
-	text-align: center;
+    color: var(--color-text);
+    text-align: center;
 }
 
 /* layout container */
@@ -52,58 +54,67 @@ footer {
 
 /* header, title, subtitle and bio */
 header {
-	padding: 3rem 1rem 0;
+    padding: 3rem 1rem 0;
 }
+
 header h1 {
-	font-size: 2.8rem;
-	letter-spacing: 0.2rem;
-	font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
 }
+
 header h2 {
-	font-size: 1rem;
-	margin: 1rem 0;
+    font-size: 1rem;
+    margin: 1rem 0;
 }
+
 .bio {
-	max-width: 700px;
-	margin: 0 auto 2rem;
-	font-size: 0.95rem;
-	color: var(--color-text);
-	line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 1.5;
 }
 
 /* nav */
 nav {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
+
 nav a {
-	margin: 0 1rem;
-	font-size: 0.85rem;
-	letter-spacing: 0.1rem;
+    margin: 0 1rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
 }
 
 /* p h1 h2 a */
 p {
-	line-height: 1.5;
+    line-height: 1.5;
 }
+
 a {
     color: var(--color-primary);
     text-decoration: none;
 }
-a.active, a:hover {
+
+a.active,
+a:hover {
     color: var(--color-text);
 }
+
 p.center {
     text-align: center;
 }
 
 /* portfolio videos */
 .videos {
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	flex-wrap: wrap;
-	padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
+
 .video {
     position: relative;
     width: 50vw;
@@ -115,6 +126,7 @@ p.center {
 .contact {
     padding: 1rem;
 }
+
 .contact a {
     font-size: 1rem;
 }
@@ -126,24 +138,30 @@ p.center {
     margin: auto;
     text-align: left;
 }
+
 .resume h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
 .job {
     margin-bottom: 2rem;
 }
+
 .job h3 {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
 }
+
 .job p {
     margin: 0.2rem 0;
 }
+
 .job ul {
     margin-top: 0.5rem;
     padding-left: 1.5rem;
 }
+
 .job ul li {
     margin-bottom: 0.3rem;
 }
