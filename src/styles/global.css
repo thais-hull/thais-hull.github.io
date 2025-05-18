@@ -162,17 +162,19 @@ p.center {
     font-size: 1rem;
 }
 
-/* resume page */
-.resume {
+/* centered container used in resume and about page */
+.center-container {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
     text-align: left;
 }
-.resume h2 {
+.center-container h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+/* resume page */
 .job {
     margin-bottom: 2rem;
 }
