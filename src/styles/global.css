@@ -173,6 +173,9 @@ p.center {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+.center-container section h2 {
+    color: #343c60;
+}
 .about p {
     padding-bottom: 1rem;
 }
