@@ -164,7 +164,7 @@ p.center {
 
 /* centered container used in resume and about page */
 .center-container {
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     max-width: 800px;
     margin: auto;
     text-align: left;
