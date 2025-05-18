@@ -1,15 +1,16 @@
-const videos = [
-    {
-        src: "/videos/narrative_demo.mp4",
-        label: "Narrative Demo Reel",
-        description: "A compilation of narrative film editing samples."
-    },
-];
+// const videos = [
+//     {
+//         src: "/videos/narrative_demo.mp4",
+//         label: "Narrative Demo Reel",
+//         description: "A compilation of narrative film editing samples."
+//     },
+// ];
 
 const Portfolio = () => {
     return (
         <div className="videos">
-            {videos.map((video, index) => (
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uD3T-VSnpGY?si=vb4Ihj36aMpkKQCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {/* {videos.map((video, index) => (
                 <div className="video" key={index}>
                     <video
                         controls
@@ -25,7 +26,7 @@ const Portfolio = () => {
                     </video>
                     <p className="sr-only">{video.description}</p>
                 </div>
-            ))}
+            ))} */}
         </div>
     );
 }
