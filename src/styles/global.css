@@ -187,6 +187,7 @@ p.center {
 .job h3 {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
+    text-decoration: underline;
 }
 .job p {
     margin: 0.2rem 0;
