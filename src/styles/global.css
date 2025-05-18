@@ -155,14 +155,6 @@ p.center {
     cursor: pointer;
 }
 
-/* contact page */
-.contact {
-    padding: 1rem;
-}
-.contact a {
-    font-size: 1rem;
-}
-
 /* centered container used in resume and about page */
 .center-container {
     padding: 0 2rem 2rem 2rem;
