@@ -154,6 +154,12 @@ p.center {
     max-width: 100%;
     cursor: pointer;
 }
+.youtube {
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
 
 /* centered container used in resume and about page */
 .center-container {
